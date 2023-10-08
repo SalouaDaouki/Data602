@@ -226,11 +226,10 @@ def exercise13(n):
     
     '''
     # ------ Place code below here \/ \/ \/ ------
-start_u = start.value//10**9
-  end_u = end.value//10**9
-  return pd.to_datetime(np.random.randint(start_u, end_u, n), unit='s')
-start = pd.to_datetime('1/1/2010')
-exercise13(n)
+   n=3
+   df = pd.DataFrame({"date":pd.date_range(start='1/1/2010', periods=n, freq="D")})
+   np.random.shuffle(df.date.values)
+   print(df)
    
     # ------ Place code above here /\ /\ /\ ------ 
     return s
@@ -243,7 +242,13 @@ def exercise14(words):
     Using Series.map() and lambdas may help.
     '''
     # ------ Place code below here \/ \/ \/ ------
-
+   words = [str(input('Please enter a list of words separated by space \n').split(',') )]
+   words2 = pd.Series(words)
+   print(words2)
+   df = words2.map(lambda x: len(x))
+   print("\nNumber of characters in each word in the said series:")
+   print (df)
+exercise14(df)
 
     # ------ Place code above here /\ /\ /\ ------ 
     return df
@@ -255,7 +260,11 @@ def exercise15():
     and just the street address and zip code columns. This can be done with one line of code.
     '''
     # ------ Place code below here \/ \/ \/ ------
-
+   data1 = pd.read_csv("https://raw.githubusercontent.com/data602sps/assignments/master/Sacramentorealestatetransactions.csv")
+   dataframe = pd.DataFrame(data1)
+   df = data1[['street', 'zip']], data1.iloc[::5]
+   return df
+exercise15()
 
 
     # ------ Place code above here /\ /\ /\ ------ 
