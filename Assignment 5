@@ -28,7 +28,8 @@ def exercise01():
     '''
 
     # ------ Place code below here \/ \/ \/ ------
-    
+    df = pd.DataFrame(np.random.randint(0,10, size=(3,4)))
+    print(df)
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -38,7 +39,21 @@ def exercise02(a):
     # The function exercise02() receives a Python list and converts it to an ndarray. Convert the list to a numpy ndarray called array.
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  input_string = input('Enter elements of a list separated by space \n')
+  user_list = input_string.split()
+  print('string list: ', user_list)
+
+# convert each item to int type
+  for i in range(len(user_list)):
+      # convert each item to int type
+      user_list[i] = int(user_list[i])
+
+  print('User list: ', user_list)
+# converting the list to ndarray
+  array = np.array(user_list)
+  return array
+
+exercise02(array)
     
     # ------ Place code above here /\ /\ /\ ------
 
@@ -48,7 +63,21 @@ def exercise03(a):
     # The function exercise03() receives an ndarray of integers. Return the sum of those integers using NumPy.
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  input_string = input('Enter elements of a list separated by space \n')
+  user_list = input_string.split()
+  print('string list: ', user_list)
+
+# convert each item to int type
+  for i in range(len(user_list)):
+      # convert each item to int type
+      user_list[i] = int(user_list[i])
+  array = np.array(user_list)
+  print(array)
+# converting the list to ndarray
+  sum = array.sum()
+  return sum
+
+exercise03(array)
 
     # ------ Place code above here /\ /\ /\ ------
     return sum
@@ -57,7 +86,25 @@ def exercise04(a):
     # The function exercise04() receives an ndarray matrix (2D) of integers. Return the sum of the 2nd column using NumPy.
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  input_string1 = input('Enter 3 elements of the first column of a list separated by space \n')
+  input_string2 = input('Enter 3 elements of the second column of a list separated by space \n')
+  u_list1 = input_string1.split()
+  u_list2 = input_string2.split()
+  user_list = u_list1 + u_list2
+  print('string list: ', user_list)
+
+# convert each item to int type
+  for i in range(len(user_list)):  
+# convert each item to int type
+  user_list[i] = int(user_list[i])
+# convert the list into 2d nd.array
+  array = np.array(user_list).reshape(-1,3)
+  print(array)
+# calculate the sum of the second column 
+  sum = np.array(array)[:, 1].sum()
+  return sum
+
+exercise04(array)
 
     # ------ Place code above here /\ /\ /\ ------
     return sum
@@ -66,7 +113,10 @@ def exercise05(n):
     # The function exercise05() receives an integer n. Return an ndarray filled with zeros of size n x n (n rows, n columns)
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  n = int(input("Please enter an integer"))
+  array = np.zeros([n,n], dtype=int)
+  return array
+exercise05(array)
 
     # ------ Place code above here /\ /\ /\ ------
     return zeros
@@ -75,7 +125,10 @@ def exercise06(n):
     # The function exercise06() receives an integer n. Return an ndarray filled with ones of size n x n (n rows, n columns)
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  n = int(input("Please enter an integer"))
+  array = np.ones([n,n], dtype=int)
+  return array
+exercise06(array)
 
     # ------ Place code above here /\ /\ /\ ------
     return ones
@@ -85,7 +138,12 @@ def exercise07(sd,m,s):
     # Return an ndarray filled with s random numbers conforming to a normal distribution of standard deviation = sd and mean = m
 
     # ------ Place code below here \/ \/ \/ ------
-    
+  sd = int(input("Please enter integer #1: "))
+  m = int(input("Please enter integer #2: "))
+  s = int(input("Please enter integer #3: "))
+  random_numbers = np.random.normal(loc=m, scale=sd, size=s)
+  return random_numbers
+exercise07()
     
     # ------ Place code above here /\ /\ /\ ------
     return random_numbers
@@ -101,7 +159,14 @@ def exercise08():
     '''
 
     # ------ Place code below here \/ \/ \/ ------
- 
+  df = pd.read_csv("https://raw.githubusercontent.com/data602sps/assignments/master/Sacramentorealestatetransactions.csv")
+  dataframe = pd.DataFrame(df)
+  row_count = len(dataframe)
+  avg_sq_ft = dataframe["sq__ft"].mean
+  df_zip_95670 = dataframe[dataframe["zip"]==95670]
+  df_zip_not_95610 = dataframe[dataframe["zip"]!=95610]
+  return df, row_count, avg_sq_ft, df_zip_95670, df_zip_not_95610
+exercise08()
 
     # ------ Place code above here /\ /\ /\ ------
 
@@ -111,7 +176,10 @@ def exercise08():
 def exercise10(n):
     # Create a numpy identity matrix of size n
     # ------ Place code below here \/ \/ \/ ------
-    
+  n = int(input("Please enter an integer"))
+  identity_matrix = np.identity(n)
+  return identity_matrix
+exercise10(1)
 
     # ------ Place code above here /\ /\ /\ ------  
     return identity_matrix
@@ -122,7 +190,12 @@ def exercise11(n):
     Reshape the array. The reshaped array, array_reshaped, should be n/3 columns and 3 rows
     '''
     # ------ Place code below here \/ \/ \/ ------
-
+  n = int(n)
+  array_1d = np.arange(0, n-1)
+  array_reshaped = array_1d.reshape(3, n//3)
+  print("The 1 dimension array is, " , array_1d)
+  print("The reshaped array is, " , array_reshaped)
+exercise11(16)
     # ------ Place code above here /\ /\ /\ ------  
     return array_1d, array_reshaped
 
@@ -132,7 +205,15 @@ def exercise12(n):
     A checkerboard matrix is a matrix with alternating 1s and 0s across rows and columns with the top left value equal to 1
     '''
     # ------ Place code below here \/ \/ \/ ------
-    
+  checkerbaord_matrix = []
+  for i in range(n):
+	checkerbaord_matrix.append(list(np.tile([1,0],int(n/2))) 
+  if i%2==0 else list(np.tile([0,1],int(n/2))))
+  print(np.array(checkerbaord_matrix))
+
+
+n = 4
+exercise12(2*n)
 
     # ------ Place code above here /\ /\ /\ ------ 
 
@@ -145,7 +226,11 @@ def exercise13(n):
     
     '''
     # ------ Place code below here \/ \/ \/ ------
-
+start_u = start.value//10**9
+  end_u = end.value//10**9
+  return pd.to_datetime(np.random.randint(start_u, end_u, n), unit='s')
+start = pd.to_datetime('1/1/2010')
+exercise13(n)
    
     # ------ Place code above here /\ /\ /\ ------ 
     return s
