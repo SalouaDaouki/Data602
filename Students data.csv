@@ -1,0 +1,75 @@
+﻿Student #,OffClass,Grade,Course,Sec,Mark 1,Mark 2,Mark 3,Average,Conduct,Level,C1,C2,
+1,805,8,MMNM8,5,97,96,98,98,E,4,900,2005,works well collaboratively
+2,805,8,MMNM8,5,75,#N/A,#N/A,#N/A,E,#N/A,900,2007,Asks for help when needed
+3,805,8,MMNM8,5,99,98,97,98,E,4,900,2020,consistently particpates in class
+4,805,8,MMNM8,5,93,90,92,93,E,4,900,2009,consistently follows class rules and procedures
+5,805,8,MMNM8,5,85,85,75,80,S,3,901,2014,struggles to pay attention in class
+6,805,8,MMNM8,5,94,90,90,92,E,4,901,2005,works well collaboratively
+7,805,8,MMNM8,5,92,99,98,95,E,4,900,2009,consistently follows class rules and procedures
+8,805,8,MMNM8,5,91,90,80,86,S,3,900,2009,consistently follows class rules and procedures
+9,805,8,MMNM8,5,97,99,98,98,E,4,900,2005,works well collaboratively
+10,805,8,MMNM8,5,75,70,75,75,N,2,900,2015,distracts others
+11,805,8,MMNM8,5,90,90,80,85,E,3,900,2005,works well collaboratively
+12,805,8,MMNM8,5,95,90,90,93,E,4,900,2005,works well collaboratively
+13,805,8,MMNM8,5,85,80,65,75,S,2,901,2014,struggles to pay attention in class
+14,805,8,MMNM8,5,80,85,80,80,E,3,901,2009,consistently follows class rules and procedures
+15,805,8,MMNM8,5,99,99,98,99,E,4,900,2009,consistently follows class rules and procedures
+16,805,8,MMNM8,5,85,90,80,83,S,3,900,2015,distracts others
+17,805,8,MMNM8,5,92,90,95,94,E,4,900,2020,consistently particpates in class
+18,805,8,MMNM8,5,98,95,96,97,E,4,900,2020,consistently particpates in class
+19,805,8,MMNM8,5,90,85,80,85,E,3,900,2009,consistently follows class rules and procedures
+20,805,8,MMNM8,5,98,92,90,94,E,4,900,2021,does not often participate in class
+21,805,8,MMNM8,5,92,80,90,91,E,4,900,2009,consistently follows class rules and procedures
+22,805,8,MMNM8,5,80,65,75,78,S,2,900,2014,struggles to pay attention in class
+23,805,8,MMNM8,5,92,99,98,95,E,4,900,2013,consistently pays attention in class
+24,805,8,MMNM8,5,85,95,85,85,E,3,900,2013,consistently pays attention in class
+25,805,8,MMNM8,5,99,100,100,100,E,4,900,2020,consistently particpates in class
+26,807,8,MMNM8,7,93,98,80,87,E,3,900,2013,consistently pays attention in class
+27,807,8,MMNM8,7,95,90,95,95,E,4,900,2020,consistently particpates in class
+28,807,8,MMNM8,7,65,55,65,65,N,2,900,2015,distracts others
+29,807,8,MMNM8,7,70,60,65,68,S,2,901,2014,struggles to pay attention in class
+30,807,8,MMNM8,7,95,93,95,95,E,4,901,2020,consistently particpates in class
+31,807,8,MMNM8,7,70,65,65,68,E,2,900,2021,does not often participate in class
+32,807,8,MMNM8,7,90,85,85,88,E,3,900,2013,consistently pays attention in class
+33,807,8,MMNM8,7,90,85,95,93,E,4,900,2013,consistently pays attention in class
+34,807,8,MMNM8,7,90,80,75,83,S,3,900,2014,struggles to pay attention in class
+35,807,8,MMNM8,7,90,94,85,88,E,3,900,2013,consistently pays attention in class
+36,807,8,MMNM8,7,90,92,85,88,S,3,900,2007,Asks for help when needed
+37,807,8,MMNM8,7,99,98,98,99,E,4,900,2001,consistently makes an effort to help others
+38,807,8,MMNM8,7,90,93,95,93,E,4,900,2020,consistently particpates in class
+39,807,8,MMNM8,7,85,93,70,78,E,2,900,2013,consistently pays attention in class
+40,807,8,MMNM8,7,70,60,65,68,S,2,900,2014,struggles to pay attention in class
+41,807,8,MMNM8,7,85,65,65,75,E,2,900,2013,consistently pays attention in class
+42,807,8,MMNM8,7,55,#N/A,#N/A,#N/A,S,#N/A,900,2015,distracts others
+43,807,8,MMNM8,7,90,80,85,88,E,3,900,2013,consistently pays attention in class
+44,807,8,MMNM8,7,91,85,80,86,E,3,900,2013,consistently pays attention in class
+45,807,8,MMNM8,7,91,95,93,92,E,4,900,2020,consistently particpates in class
+46,807,8,MMNM8,7,90,91,80,85,E,3,900,2013,consistently pays attention in class
+47,807,8,MMNM8,7,90,70,75,83,E,3,900,2020,consistently particpates in class
+48,807,8,MMNM8,7,90,85,75,83,E,3,900,2013,consistently pays attention in class
+49,807,8,MMNM8,7,99,100,100,100,E,4,900,2001,consistently makes an effort to help others
+50,807,8,MMNM8,7,98,99,98,98,E,4,900,2020,consistently particpates in class
+51,808,8,MMNM8,8,90,80,85,88,E,3,900,2007,Asks for help when needed
+52,808,8,MMNM8,8,80,80,80,80,E,3,900,2013,consistently pays attention in class
+53,808,8,MMNM8,8,97,96,95,96,E,4,900,2020,consistently particpates in class
+54,808,8,MMNM8,8,91,90,90,91,E,4,900,2013,consistently pays attention in class
+55,808,8,MMNM8,8,90,90,80,85,S,3,901,2007,Asks for help when needed
+56,808,8,MMNM8,8,80,85,80,80,E,3,901,2007,Asks for help when needed
+57,808,8,MMNM8,8,65,80,65,65,E,2,900,2014,struggles to pay attention in class
+58,808,8,MMNM8,8,70,75,70,70,S,2,900,2014,struggles to pay attention in class
+59,808,8,MMNM8,8,80,65,70,75,E,2,900,2013,consistently pays attention in class
+60,808,8,MMNM8,8,85,85,75,80,E,3,900,2014,struggles to pay attention in class
+61,808,8,MMNM8,8,90,#N/A,#N/A,#N/A,E,#N/A,900,2013,consistently pays attention in class
+62,808,8,MMNM8,8,98,99,99,99,E,4,900,2005,works well collaboratively
+63,808,8,MMNM8,8,99,100,100,100,E,4,900,2001,consistently makes an effort to help others
+64,808,8,MMNM8,8,65,70,65,65,S,2,900,2014,struggles to pay attention in class
+65,808,8,MMNM8,8,65,70,65,65,N,2,902,2015,distracts others
+66,808,8,MMNM8,8,65,70,65,65,N,2,902,2015,distracts others
+67,808,8,MMNM8,8,75,75,70,73,E,2,900,2014,struggles to pay attention in class
+68,808,8,MMNM8,8,60,#N/A,#N/A,#N/A,N,#N/A,900,2015,distracts others
+69,808,8,MMNM8,8,90,91,90,90,E,4,902,2005,works well collaboratively
+70,808,8,MMNM8,8,85,85,70,78,E,2,900,2008,hesitates to ask for help
+71,808,8,MMNM8,8,96,90,90,93,E,4,900,2013,consistently pays attention in class
+72,808,8,MMNM8,8,85,85,75,80,N,3,900,2015,distracts others
+73,808,8,MMNM8,8,75,75,75,75,E,2,902,2013,consistently pays attention in class
+74,808,8,MMNM8,8,85,75,70,78,S,2,900,2014,struggles to pay attention in class
